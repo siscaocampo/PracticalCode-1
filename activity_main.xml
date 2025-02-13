@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputQuiz"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quiz Score (out of 100)"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/inputAssignment"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Assignment Score (out of 100)"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/inputExam"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Exam Score (out of 100)"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate Grade"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/outputGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
